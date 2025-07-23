@@ -13,7 +13,7 @@ read -p "Enter your username: " user
 ssh $user@$ip ;
 done
 EOF
-ENNTRYPOINT ["./ssh_script.sh"]
+ENTRYPOINT ["./ssh_script.sh"]
 
  
 
